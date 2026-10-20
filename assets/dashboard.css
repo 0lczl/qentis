@@ -1,0 +1,122 @@
+:root {
+  --background: #0a0a0a;
+  --surface: #121218;
+  --surface-raised: #1b1a24;
+  --border: #34313f;
+  --control-border: #777180;
+  --text: #f4f1fa;
+  --muted: #b9b2c8;
+  --accent: #b89aff;
+  --reference: #68d9d1;
+  --brand-bright: #6e2eda;
+}
+html, body, [data-testid="stApp"], button, input, select {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+[data-testid="stApp"] :is(h1, h2, h3, h4, p, label, input, button, summary),
+[data-testid="stMarkdownContainer"], [data-baseweb="select"] {
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+[data-testid="stApp"] code, .data, .readout strong {
+  font-family: "IBM Plex Mono", monospace !important;
+}
+[data-testid="stMainBlockContainer"] { max-width: 1512px; padding: 1rem 2.5rem 2rem; }
+[data-testid="stHeader"] { background: transparent; height: 0; }
+[data-testid="stToolbar"] { visibility: hidden; }
+[data-testid="stVerticalBlock"] { gap: 0.75rem; }
+[data-testid="stMarkdownContainer"] p { line-height: 1.55; }
+h1 { font-size: 1.8rem !important; font-weight: 500 !important; letter-spacing: -0.025em; padding: 0 !important; }
+h2 { font-size: 1.25rem !important; font-weight: 500 !important; padding: 0 !important; }
+h3 { font-size: 1rem !important; font-weight: 500 !important; padding: 0 !important; }
+.brand-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 84px; border-bottom: 1px solid var(--border); }
+.brand-lockup { display: flex; align-items: center; gap: 0.25rem; }
+.brand-lockup img { width: 96px; height: 88px; object-fit: contain; }
+.brand-name { margin: 0; font-size: 1.65rem; letter-spacing: -0.025em; line-height: 1.2; }
+.brand-description { color: var(--muted); font-size: 14px; margin-top: 0.25rem; }
+.scope-label { color: var(--accent); border: 1px solid var(--border); border-radius: 999px; padding: 0.35rem 0.8rem; font-size: 14px; white-space: nowrap; }
+.intro { color: var(--muted); margin: 0.1rem 0 0.4rem; }
+.fixed-state { border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 0.25rem; color: var(--muted); font-size: 14px; }
+.fixed-state strong { display: block; color: var(--text); font-size: 1.25rem; font-weight: 400; margin-top: 0.25rem; }
+.quiet { color: var(--muted); font-size: 14px; }
+.data { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.result-status { color: var(--reference); font-size: 14px; margin: 0 0 0.4rem; }
+.result-status.saved { color: var(--accent); }
+.result-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.3rem 1rem; }
+.result-heading h2 { margin: 0; }
+.readout { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding: 0.8rem 0; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+.readout strong { color: var(--text); font-family: "IBM Plex Mono", monospace; font-size: 14px; font-weight: 400; margin-left: 0.3rem; }
+.ready { padding: 2rem 0 1rem; max-width: 68ch; }
+.ready-equation { color: var(--accent); font-size: 3rem; line-height: 1.3; margin: 1.25rem 0 1.5rem; }
+.ready h2 { font-size: 1.5rem !important; margin: 0 0 0.6rem; }
+.ready p { color: var(--muted); font-size: 16px; }
+.protocol-strip { display: flex; gap: 1.5rem; flex-wrap: wrap; padding: 1rem 0; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+.protocol-strip strong { display: block; color: var(--text); font-weight: 400; margin-bottom: 0.35rem; }
+[data-testid="stNumberInputContainer"], [data-baseweb="select"] > div { border-color: var(--control-border); border-radius: 8px; }
+[data-testid="stBaseButton-primary"], [data-testid="stBaseButton-primaryFormSubmit"] { background: var(--brand-bright); color: var(--text); border: 1px solid var(--accent); border-radius: 8px; min-height: 42px; }
+[data-testid="stBaseButton-primary"]:hover, [data-testid="stBaseButton-primaryFormSubmit"]:hover { background: #5823bd; border-color: var(--text); }
+[data-testid="stBaseButton-secondary"], [data-testid="stBaseButton-secondaryFormSubmit"] { border-color: var(--control-border); border-radius: 8px; }
+[data-testid="stExpander"] { border-color: var(--border); border-radius: 8px; }
+[data-testid="stCaptionContainer"] { color: var(--muted); font-size: 14px; opacity: 1; }
+[data-testid="stForm"] { border: 0; padding: 0; }
+input { caret-color: var(--accent); }
+::selection { color: var(--text); background: #4a1d9f; }
+:focus-visible { outline: 2px solid var(--accent) !important; outline-offset: 3px; }
+[role="slider"]:focus-visible { outline-offset: 5px; }
+* { scrollbar-color: var(--control-border) var(--background); scrollbar-width: thin; }
+@media (max-width: 760px) {
+  [data-testid="stMainBlockContainer"] { padding: 0.5rem 1rem 1.5rem; }
+  .brand-lockup img { width: 72px; height: 80px; }
+  .brand-description { max-width: 16ch; }
+  .scope-label { padding: 0.3rem 0.6rem; }
+  [data-testid="stHorizontalBlock"] { flex-wrap: wrap; }
+  [data-testid="stColumn"] { min-width: min(100%, 360px); flex: 1 1 100%; }
+  .ready { padding-top: 0.75rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+/* Semantic variables update every surface together when appearance changes. */
+html, body, [data-testid="stApp"], [data-testid="stMain"] {
+  background: var(--background); color: var(--text);
+}
+[data-testid="stApp"] :is(h1, h2, h3, h4, label, summary),
+[data-testid="stMarkdownContainer"], [data-testid="stWidgetLabel"] { color: var(--text); }
+[data-testid="stNumberInputContainer"], [data-testid="stNumberInputContainer"] input,
+[data-testid="stNumberInputContainer"] button, [data-baseweb="select"] > div,
+[data-testid="stBaseButton-secondary"], [data-testid="stBaseButton-secondaryFormSubmit"] {
+  background: var(--surface-raised); color: var(--text);
+}
+[data-testid="stNumberInputContainer"] input { -webkit-text-fill-color: var(--text); }
+[data-baseweb="select"] svg { color: var(--text); fill: currentColor; }
+[data-testid="stExpander"] details, [data-testid="stExpander"] summary,
+[data-baseweb="tab-list"], [data-baseweb="tab"], [data-testid="stSelectSlider"] {
+  background: var(--background); color: var(--text);
+}
+[data-baseweb="tab"][aria-selected="true"] { color: var(--accent); }
+[data-baseweb="popover"], [data-baseweb="menu"], [role="listbox"], [role="option"],
+[data-testid="stTooltipContent"], [data-testid="stJson"] {
+  background: var(--surface-raised); color: var(--text);
+}
+[data-testid="stAlert"] { background: var(--surface-raised); color: var(--text); }
+[data-testid="stBaseButton-primary"], [data-testid="stBaseButton-primaryFormSubmit"] { color: #fff; }
+[data-testid="stBaseButton-primary"] p, [data-testid="stBaseButton-primaryFormSubmit"] p { color: #fff; }
+[data-testid="stCaptionContainer"] p { color: var(--muted); }
+.brand-lockup img { background: #0a0a0a; border-radius: 8px; }
+[data-testid="stApp"] a { color: var(--accent); text-underline-offset: 3px; }
+[data-testid="stApp"] [data-baseweb="tab-panel"] { padding-top: 1rem; }
+::selection { color: #fff; background: #4a1d9f; }
+[data-baseweb="radio"] > div:first-child { background: var(--background); border: 1px solid var(--control-border); }
+[data-baseweb="radio"] > div:first-child > div { background: var(--background); }
+[data-baseweb="radio"]:has(input:checked) > div:first-child { background: var(--accent); border-color: var(--accent); }
+[data-baseweb="radio"]:has(input:checked) > div:first-child > div { background: var(--background); }
+[data-baseweb="checkbox"] > div:first-child { background: var(--control-border); }
+[data-baseweb="checkbox"]:has(input[aria-checked="true"]) > div:first-child { background: var(--accent); }
+[data-baseweb="checkbox"] > div:first-child > div { background: var(--background); }
+[role="slider"] { background: var(--accent) !important; }
+[data-testid="stSliderThumbValue"], [data-testid="stSliderTickBarMin"], [data-testid="stSliderTickBarMax"] { color: var(--accent); }
+[data-baseweb="slider"] > div > div { background: var(--accent); }
+[data-testid="stTable"] { overflow-x: auto; color: var(--text); }
+[data-testid="stTable"] :is(th, td) { color: var(--text); border-color: var(--border); font-size: 14px; }
+[data-testid="stJson"] span { color: var(--text) !important; }
+[data-testid="stJson"] .react-json-view { background-color: var(--surface-raised) !important; color: var(--text) !important; }

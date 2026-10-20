@@ -1,0 +1,9 @@
+{
+  "completed": 10,
+  "failed": 0,
+  "pending": 0,
+  "wins": 8,
+  "ties": 0,
+  "losses": 2,
+  "mean_final_difference": -0.013826477649086863
+}

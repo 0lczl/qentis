@@ -1,0 +1,16 @@
+{
+  "wall_seconds": 1.2819348330085631,
+  "run_id": "qentis-3f7bf15159e845d9a7419dbf2151516e",
+  "scope": "browser click through visible complete state, including CLI overhead and rendering",
+  "external_https": "blocked during rehearsal",
+  "hardware": {
+    "system": "macOS-27.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 8,
+    "machine_name": "MacBook Air",
+    "machine_model": "Mac15,12",
+    "chip_type": "Apple M3",
+    "physical_memory": "16 GB"
+  }
+}

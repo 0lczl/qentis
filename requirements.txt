@@ -1,0 +1,7 @@
+# Python 3.11. Install once; the dashboard then runs offline.
+numpy==2.2.6
+scipy==1.17.1
+qutip==5.2.1
+streamlit==1.50.0
+plotly==6.3.1
+scikit-learn==1.7.2

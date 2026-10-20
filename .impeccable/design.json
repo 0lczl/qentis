@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T19:44:50.602142+00:00",
+  "title": "Design System: Qentis",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Instrument Black",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Plot Charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.01216 285.15)",
+          "oklch(26.43% 0.01216 285.15)",
+          "oklch(37.86% 0.01216 285.15)",
+          "oklch(49.29% 0.01216 285.15)",
+          "oklch(60.71% 0.01216 285.15)",
+          "oklch(72.14% 0.01216 285.15)",
+          "oklch(83.57% 0.01216 285.15)",
+          "oklch(95.00% 0.01216 285.15)"
+        ]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "Raised Charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.01935 289.32)",
+          "oklch(26.43% 0.01935 289.32)",
+          "oklch(37.86% 0.01935 289.32)",
+          "oklch(49.29% 0.01935 289.32)",
+          "oklch(60.71% 0.01935 289.32)",
+          "oklch(72.14% 0.01935 289.32)",
+          "oklch(83.57% 0.01935 289.32)",
+          "oklch(95.00% 0.01935 289.32)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Quiet Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.02488 294.79)",
+          "oklch(26.43% 0.02488 294.79)",
+          "oklch(37.86% 0.02488 294.79)",
+          "oklch(49.29% 0.02488 294.79)",
+          "oklch(60.71% 0.02488 294.79)",
+          "oklch(72.14% 0.02488 294.79)",
+          "oklch(83.57% 0.02488 294.79)",
+          "oklch(95.00% 0.02488 294.79)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Outline",
+        "tonalRamp": [
+          "oklch(15.00% 0.02391 303.73)",
+          "oklch(26.43% 0.02391 303.73)",
+          "oklch(37.86% 0.02391 303.73)",
+          "oklch(49.29% 0.02391 303.73)",
+          "oklch(60.71% 0.02391 303.73)",
+          "oklch(72.14% 0.02391 303.73)",
+          "oklch(83.57% 0.02391 303.73)",
+          "oklch(95.00% 0.02391 303.73)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Soft White",
+        "tonalRamp": [
+          "oklch(15.00% 0.01234 301.29)",
+          "oklch(26.43% 0.01234 301.29)",
+          "oklch(37.86% 0.01234 301.29)",
+          "oklch(49.29% 0.01234 301.29)",
+          "oklch(60.71% 0.01234 301.29)",
+          "oklch(72.14% 0.01234 301.29)",
+          "oklch(83.57% 0.01234 301.29)",
+          "oklch(95.00% 0.01234 301.29)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Lavender Gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.03181 300.16)",
+          "oklch(26.43% 0.03181 300.16)",
+          "oklch(37.86% 0.03181 300.16)",
+          "oklch(49.29% 0.03181 300.16)",
+          "oklch(60.71% 0.03181 300.16)",
+          "oklch(72.14% 0.03181 300.16)",
+          "oklch(83.57% 0.03181 300.16)",
+          "oklch(95.00% 0.03181 300.16)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Pale Violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.14440 296.45)",
+          "oklch(26.43% 0.14440 296.45)",
+          "oklch(37.86% 0.14440 296.45)",
+          "oklch(49.29% 0.14440 296.45)",
+          "oklch(60.71% 0.14440 296.45)",
+          "oklch(72.14% 0.14440 296.45)",
+          "oklch(83.57% 0.14440 296.45)",
+          "oklch(95.00% 0.14440 296.45)"
+        ]
+      },
+      "reference": {
+        "role": "secondary",
+        "displayName": "Reference Teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.10396 189.13)",
+          "oklch(26.43% 0.10396 189.13)",
+          "oklch(37.86% 0.10396 189.13)",
+          "oklch(49.29% 0.10396 189.13)",
+          "oklch(60.71% 0.10396 189.13)",
+          "oklch(72.14% 0.10396 189.13)",
+          "oklch(83.57% 0.10396 189.13)",
+          "oklch(95.00% 0.10396 189.13)"
+        ]
+      },
+      "brand-bright": {
+        "role": "primary",
+        "displayName": "Luminous Violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.23739 292.27)",
+          "oklch(26.43% 0.23739 292.27)",
+          "oklch(37.86% 0.23739 292.27)",
+          "oklch(49.29% 0.23739 292.27)",
+          "oklch(60.71% 0.23739 292.27)",
+          "oklch(72.14% 0.23739 292.27)",
+          "oklch(83.57% 0.23739 292.27)",
+          "oklch(95.00% 0.23739 292.27)"
+        ]
+      },
+      "brand-hover": {
+        "role": "primary",
+        "displayName": "Deep Violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.21630 289.77)",
+          "oklch(26.43% 0.21630 289.77)",
+          "oklch(37.86% 0.21630 289.77)",
+          "oklch(49.29% 0.21630 289.77)",
+          "oklch(60.71% 0.21630 289.77)",
+          "oklch(72.14% 0.21630 289.77)",
+          "oklch(83.57% 0.21630 289.77)",
+          "oklch(95.00% 0.21630 289.77)"
+        ]
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "Selection Violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.18925 290.18)",
+          "oklch(26.43% 0.18925 290.18)",
+          "oklch(37.86% 0.18925 290.18)",
+          "oklch(49.29% 0.18925 290.18)",
+          "oklch(60.71% 0.18925 290.18)",
+          "oklch(72.14% 0.18925 290.18)",
+          "oklch(83.57% 0.18925 290.18)",
+          "oklch(95.00% 0.18925 290.18)"
+        ]
+      },
+      "random": {
+        "role": "secondary",
+        "displayName": "Baseline Amber",
+        "tonalRamp": [
+          "oklch(15.00% 0.11767 78.45)",
+          "oklch(26.43% 0.11767 78.45)",
+          "oklch(37.86% 0.11767 78.45)",
+          "oklch(49.29% 0.11767 78.45)",
+          "oklch(60.71% 0.11767 78.45)",
+          "oklch(72.14% 0.11767 78.45)",
+          "oklch(83.57% 0.11767 78.45)",
+          "oklch(95.00% 0.11767 78.45)"
+        ]
+      },
+      "on-primary": {
+        "role": "neutral",
+        "displayName": "Action and selection white",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "light-background": {
+        "role": "neutral",
+        "displayName": "Pale Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00539 297.73)",
+          "oklch(26.43% 0.00539 297.73)",
+          "oklch(37.86% 0.00539 297.73)",
+          "oklch(49.29% 0.00539 297.73)",
+          "oklch(60.71% 0.00539 297.73)",
+          "oklch(72.14% 0.00539 297.73)",
+          "oklch(83.57% 0.00539 297.73)",
+          "oklch(95.00% 0.00539 297.73)"
+        ]
+      },
+      "light-surface": {
+        "role": "neutral",
+        "displayName": "White Plot",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "light-surface-raised": {
+        "role": "neutral",
+        "displayName": "Raised Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.01111 303.11)",
+          "oklch(26.43% 0.01111 303.11)",
+          "oklch(37.86% 0.01111 303.11)",
+          "oklch(49.29% 0.01111 303.11)",
+          "oklch(60.71% 0.01111 303.11)",
+          "oklch(72.14% 0.01111 303.11)",
+          "oklch(83.57% 0.01111 303.11)",
+          "oklch(95.00% 0.01111 303.11)"
+        ]
+      },
+      "light-border": {
+        "role": "neutral",
+        "displayName": "Light Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.02438 304.44)",
+          "oklch(26.43% 0.02438 304.44)",
+          "oklch(37.86% 0.02438 304.44)",
+          "oklch(49.29% 0.02438 304.44)",
+          "oklch(60.71% 0.02438 304.44)",
+          "oklch(72.14% 0.02438 304.44)",
+          "oklch(83.57% 0.02438 304.44)",
+          "oklch(95.00% 0.02438 304.44)"
+        ]
+      },
+      "light-control-border": {
+        "role": "neutral",
+        "displayName": "Light Control Outline",
+        "tonalRamp": [
+          "oklch(15.00% 0.04122 304.35)",
+          "oklch(26.43% 0.04122 304.35)",
+          "oklch(37.86% 0.04122 304.35)",
+          "oklch(49.29% 0.04122 304.35)",
+          "oklch(60.71% 0.04122 304.35)",
+          "oklch(72.14% 0.04122 304.35)",
+          "oklch(83.57% 0.04122 304.35)",
+          "oklch(95.00% 0.04122 304.35)"
+        ]
+      },
+      "light-text": {
+        "role": "neutral",
+        "displayName": "Ink Violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.04101 300.76)",
+          "oklch(26.43% 0.04101 300.76)",
+          "oklch(37.86% 0.04101 300.76)",
+          "oklch(49.29% 0.04101 300.76)",
+          "oklch(60.71% 0.04101 300.76)",
+          "oklch(72.14% 0.04101 300.76)",
+          "oklch(83.57% 0.04101 300.76)",
+          "oklch(95.00% 0.04101 300.76)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.03999 303.87)",
+          "oklch(26.43% 0.03999 303.87)",
+          "oklch(37.86% 0.03999 303.87)",
+          "oklch(49.29% 0.03999 303.87)",
+          "oklch(60.71% 0.03999 303.87)",
+          "oklch(72.14% 0.03999 303.87)",
+          "oklch(83.57% 0.03999 303.87)",
+          "oklch(95.00% 0.03999 303.87)"
+        ]
+      },
+      "light-accent": {
+        "role": "primary",
+        "displayName": "Deep Accent Violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.18313 297.46)",
+          "oklch(26.43% 0.18313 297.46)",
+          "oklch(37.86% 0.18313 297.46)",
+          "oklch(49.29% 0.18313 297.46)",
+          "oklch(60.71% 0.18313 297.46)",
+          "oklch(72.14% 0.18313 297.46)",
+          "oklch(83.57% 0.18313 297.46)",
+          "oklch(95.00% 0.18313 297.46)"
+        ]
+      },
+      "light-reference": {
+        "role": "secondary",
+        "displayName": "Light Reference Teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.08862 186.62)",
+          "oklch(26.43% 0.08862 186.62)",
+          "oklch(37.86% 0.08862 186.62)",
+          "oklch(49.29% 0.08862 186.62)",
+          "oklch(60.71% 0.08862 186.62)",
+          "oklch(72.14% 0.08862 186.62)",
+          "oklch(83.57% 0.08862 186.62)",
+          "oklch(95.00% 0.08862 186.62)"
+        ]
+      },
+      "light-random": {
+        "role": "secondary",
+        "displayName": "Light Baseline Amber",
+        "tonalRamp": [
+          "oklch(15.00% 0.11144 71.61)",
+          "oklch(26.43% 0.11144 71.61)",
+          "oklch(37.86% 0.11144 71.61)",
+          "oklch(49.29% 0.11144 71.61)",
+          "oklch(60.71% 0.11144 71.61)",
+          "oklch(72.14% 0.11144 71.61)",
+          "oklch(83.57% 0.11144 71.61)",
+          "oklch(95.00% 0.11144 71.61)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Dashboard page title."
+      },
+      "title": {
+        "displayName": "Evidence title",
+        "purpose": "Numerical reference and adaptive/random result headings."
+      },
+      "section": {
+        "displayName": "Section heading",
+        "purpose": "Control and chart headings."
+      },
+      "body": {
+        "displayName": "Interface body",
+        "purpose": "Explanatory interface paragraphs."
+      },
+      "label": {
+        "displayName": "Supporting label",
+        "purpose": "Units, captions, status, axis titles, hover text, and phase-one chart labels; captions use full opacity."
+      },
+      "data": {
+        "displayName": "Numerical data",
+        "purpose": "Readout values, run identifiers, and code."
+      },
+      "equation": {
+        "displayName": "Empty-state equation",
+        "purpose": "Phase-one ready-state scientific expression."
+      },
+      "brand": {
+        "displayName": "Brand lockup",
+        "purpose": "Adjacent Qentis name."
+      },
+      "empty-title": {
+        "displayName": "Ready-state title",
+        "purpose": "Initial instructions before genuine computation."
+      },
+      "chart-tick": {
+        "displayName": "Learning chart tick and legend",
+        "purpose": "Phase-two chart ticks and legends; axis titles and hover labels remain 14px."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }",
+        "purpose": "Honor the reduced-motion preference. No custom transition duration is currently implemented."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stacked-dashboard",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Run a simulation, run a learning comparison, or open a saved run. Fixed white labels stay readable in both appearances.",
+      "html": "<button class=\"ds-button-primary\">Run experiment</button>",
+      "css": ".ds-button-primary{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;background:var(--brand-bright);color:#fff;border:1px solid var(--accent);border-radius:8px;min-height:42px;}.ds-button-primary:hover{background:#5823bd;border-color:#fff;}.ds-button-primary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A lower-priority working action with a visible control outline.",
+      "html": "<button class=\"ds-button-secondary\">Go to Experiment</button>",
+      "css": ".ds-button-secondary{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;background:var(--surface-raised);color:var(--text);border:1px solid var(--control-border);border-radius:8px;}.ds-button-secondary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Number field",
+      "kind": "input",
+      "refersTo": "input-number",
+      "description": "A quantity label, units, raised surface, and visible outline; retain native number-input keyboard behavior.",
+      "html": "<label class=\"ds-field\">Dephasing rate \u03b3 (1/time)<input class=\"ds-number\" type=\"number\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1.00\"></label>",
+      "css": ".ds-field{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;display:grid;gap:.5rem;color:var(--text);font-size:14px;}.ds-number{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;background:var(--surface-raised);color:var(--text);border:1px solid var(--control-border);border-radius:8px;caret-color:var(--accent);}.ds-number:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Dashboard navigation",
+      "kind": "nav",
+      "description": "Three native horizontal radio choices with visible selected marks and keyboard support.",
+      "html": "<nav aria-label=\"Dashboard view\" class=\"ds-nav\"><label><input class=\"ds-nav-radio\" type=\"radio\" name=\"ds-view\" checked> Experiment</label><label><input class=\"ds-nav-radio\" type=\"radio\" name=\"ds-view\"> Saved runs</label><label><input class=\"ds-nav-radio\" type=\"radio\" name=\"ds-view\"> Benchmark</label></nav>",
+      "css": ".ds-nav{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;gap:1rem;color:var(--text);}.ds-nav-radio{accent-color:var(--accent);}.ds-nav-radio:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Simulation scope chip",
+      "kind": "chip",
+      "refersTo": "scope-chip",
+      "description": "A static simulation-only scope label. It is not a button or a color-only status.",
+      "html": "<span class=\"ds-scope\">Simulation only</span>",
+      "css": ".ds-scope{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;display:inline-block;color:var(--accent);background:var(--background);border:1px solid var(--border);border-radius:999px;padding:.35rem .8rem;font-size:14px;white-space:nowrap;}"
+    },
+    {
+      "name": "Validation expander",
+      "kind": "card",
+      "refersTo": "expander",
+      "description": "Quiet bordered disclosure for saved provenance and numerical validation. The original application uses Streamlit disclosures.",
+      "html": "<details class=\"ds-expander\"><summary class=\"ds-expander-summary\">Saved record and numerical validation</summary><p class=\"ds-expander-copy\">Saved on this laptop. The configuration is immutable; changing settings creates a new run.</p></details>",
+      "css": ".ds-expander{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;color:var(--text);background:var(--background);border:1px solid var(--border);border-radius:8px;}.ds-expander-summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}.ds-expander-copy{color:var(--muted);font-size:14px;line-height:1.55;}"
+    },
+    {
+      "name": "Numerical readout",
+      "kind": "custom",
+      "refersTo": "numerical-readout",
+      "description": "Wrapped numerical values from a stored reference sample; this preview illustrates a documented initial state.",
+      "html": "<div class=\"ds-readout\"><span>t<strong>0.000</strong></span><span>x<strong>1.00000</strong></span><span>y<strong>0.00000</strong></span><span>z<strong>0.00000</strong></span><span>p\u2080 / p\u2081<strong>0.500 / 0.500</strong></span><span>Purity<strong>1.00000</strong></span></div>",
+      "css": ".ds-readout{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem 1.5rem;padding:.8rem 0;border-top:1px solid var(--border);font-size:14px;color:var(--muted);}.ds-readout strong{font-family:\"IBM Plex Mono\",monospace;font-variant-numeric:tabular-nums;color:var(--text);font-size:14px;font-weight:400;margin-left:.3rem;}"
+    },
+    {
+      "name": "Result provenance",
+      "kind": "custom",
+      "description": "Phase-one source distinction. Learning uses theme reference teal for both sources and names source/status in text.",
+      "html": "<div class=\"ds-result\"><span class=\"ds-live\">Live computation \u00b7 complete</span><span class=\"ds-saved\">Saved result</span></div>",
+      "css": ".ds-result{font-family:\"IBM Plex Sans\",sans-serif;font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;gap:1rem;font-size:14px;}.ds-live{color:var(--reference);}.ds-saved{color:var(--accent);}"
+    },
+    {
+      "name": "Error-map strategy selection",
+      "kind": "input",
+      "description": "Native strategy selection with theme-aware text and chevron; the application uses Streamlit selectbox.",
+      "html": "<label class=\"ds-select-label\">Error-map strategy<select class=\"ds-select\"><option>adaptive</option><option>random</option></select></label>",
+      "css": ".ds-select-label{display:grid;gap:.5rem;font-family:\"IBM Plex Sans\",sans-serif;color:var(--text);font-size:14px;}.ds-select{font-family:\"IBM Plex Sans\",sans-serif;background:var(--surface-raised);color:var(--text);border:1px solid var(--control-border);border-radius:8px;color-scheme:inherit;}.ds-select:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Paired learning readout",
+      "kind": "custom",
+      "refersTo": "numerical-readout",
+      "description": "An illustrative paired-budget readout; real values always come from the selected stored checkpoint.",
+      "html": "<div class=\"ds-paired\"><span>Adaptive RMSE<strong>0.002400</strong></span><span>Random RMSE<strong>0.003100</strong></span><span>\u0394 adaptive \u2212 random<strong>\u22120.000700</strong></span></div>",
+      "css": ".ds-paired{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 1.5rem;padding:.8rem 0;border-top:1px solid var(--border);font-family:\"IBM Plex Sans\",sans-serif;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;}.ds-paired strong{font-family:\"IBM Plex Mono\",monospace;color:var(--text);font-weight:400;margin-left:.3rem;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Research Instrument",
+    "overview": "Qentis gives numerical evidence the visual authority. Near-black and quiet pale-paper canvases, locally bundled IBM Plex type, and restrained violet controls support careful inspection. The supplied ribbon Q remains the identity anchor; its existing halo supplies the brand atmosphere without spreading glow across scientific evidence.\n\nThis document records the implemented phases one through four. The original [design guide](docs/design/QENTIS_DESIGN_GUIDE.md) remains the approved visual authority, and [PRODUCT.md](PRODUCT.md) supplies the simulation-only, offline, reproducibility constraints and explicit light/dark requirement. The shipped sources are `assets/dashboard.css`, `app.py`, `qentis/theme.py`, `qentis/charts.py`, `qentis/learning_charts.py`, `qentis/learning_ui.py`, and `qentis/benchmark_ui.py`. This extension preserves the original logo and guide.\n\nThe dashboard includes numerical simulation, saved runs, and a single-seed adaptive/random comparison with stored surrogate models and completed-revision inspection. The same protocol, evidence, and scientific source labels apply in both appearances. Whole-pair pause, same-protocol resume, interruption recovery, and revision-specific downloads are implemented. The Benchmark view retains all ten fixed seeds and exposes repeated-seed variability without claiming a general advantage.",
+    "keyCharacteristics": [
+      "Quiet dark and light surfaces with precise boundaries.",
+      "Violet identity, actions, focus, and adaptive/model estimates.",
+      "Teal numerical reference and amber random baseline, reinforced by geometry and words.",
+      "Readable scientific plots, wrapped numerical readouts, and inspectable model revisions.",
+      "Explicit live/saved provenance, actual computation progress, and explicit paused, interrupted, complete, and failure states."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Color Rule",
+        "body": "Teal means numerical reference, violet means adaptive/model estimate, and amber means the random comparison. State sources in labels; distinguish estimated uncertainty from measured held-out error. A single-seed result is not a benchmark or a general advantage.",
+        "section": "colors"
+      },
+      {
+        "name": "The Restrained Violet Rule",
+        "body": "Keep the canvas and scientific surfaces neutral. Concentrate violet on the original identity, actionable controls, focus, current selection, and labeled adaptive/model evidence.",
+        "section": "colors"
+      },
+      {
+        "name": "The Readable Evidence Rule",
+        "body": "Supporting scientific copy and numerical readouts use the label/data scale; phase-two ticks and legends use the chart-tick scale. Do not dim captions through a second opacity layer.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Evidence Rule",
+        "body": "Keep charts, readouts, and containers sharp and still. Do not add glow, shadow, or translucency to numerical evidence.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the original ribbon Q and its matching near-black surround.",
+      "Do use teal reference, violet adaptive/model, and amber random semantics in both appearances, with dash/marker and text support.",
+      "Do keep units, scientific conventions, readout precision, and validation visible.",
+      "Do retain clear live/saved labels and the original run's configuration and provenance.",
+      "Do stack controls above scientific evidence on narrow screens and allow readouts to wrap.",
+      "Do keep captions fully opaque, keyboard focus visibly outlined, and primary/selection text explicitly white in both appearances.",
+      "Do preserve negative or inconclusive single-seed results, estimated-interval caveats, and separate acquisition/evaluation sources."
+    ],
+    "donts": [
+      "Don't claim that single-seed learning or the ten-seed benchmark establishes a general adaptive advantage, statistical significance, or quantum advantage.",
+      "Don't add decorative orbit graphics, pulsing charts, neon panels, or glow to scientific evidence.",
+      "Don't replace the numerical trajectory with a decorative sphere or encode series by color alone.",
+      "Don't invent unimplemented actions, outcomes, progress percentages, or hardware claims.",
+      "Don't replace the approved logo, palette, or type direction as an incidental interface refinement."
+    ]
+  }
+}
