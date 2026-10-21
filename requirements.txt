@@ -5,3 +5,4 @@ qutip==5.2.1
 streamlit==1.50.0
 plotly==6.3.1
 scikit-learn==1.7.2
+pandas==2.3.3

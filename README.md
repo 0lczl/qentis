@@ -7,6 +7,28 @@ interruption recovery, and JSON/CSV evidence downloads. The fixed ten-seed bench
 
 ## Setup and launch
 
+### Free online deployment
+
+In Streamlit Community Cloud, select:
+
+- Repository: `0lczl/qentis`
+- Branch: `main`
+- Main file path: `streamlit_app.py`
+- Advanced settings → Python version: **3.11**
+- App URL: `qentis` if available, or another available name.
+
+Click **Deploy**. No API keys or secrets are needed. Dependencies install from
+`requirements.txt`. The online results library starts empty. Select **Run
+experiment** to compute a fresh comparison, or **Qubit simulation → Run simulation**
+to inspect numerical qubit behavior. Local saved results are not published.
+
+Free cloud instance storage is temporary: newly created runs can disappear after
+a reboot or redeployment. Download evidence you need to keep. The hosted proof of concept shares one
+results library and one active learning worker across visitors; use it for public
+demonstration data. Durable per-user cloud storage is outside this deployment.
+
+### Laptop setup
+
 Requires **Python 3.11**, available on the presentation laptop as `python3.11`.
 Run these commands from this directory:
 
